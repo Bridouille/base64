@@ -10,3 +10,5 @@ example:
      -> reverse : "tulas"  
      -> caesar : "fgxme"  
      -> base64 : "Zmd4bWU="  
+
+![base64](https://raw.githubusercontent.com/Bridouille/base64/master/img/encrypt.png "base64")
