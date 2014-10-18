@@ -1,13 +1,3 @@
-##
-## Makefile for encrypt in /home/bridou_n/test/colle
-## 
-## Made by Nicolas Bridoux
-## Login   <bridou_n@epitech.net>
-## 
-## Started on  Tue May 27 18:31:59 2014 Nicolas Bridoux
-## Last update Wed May 28 09:02:15 2014 Nicolas Bridoux
-##
-
 
 SRCS	=	main.c			\
 
