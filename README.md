@@ -6,7 +6,7 @@ reverse -> caesar (key is 12) -> base64
   
 example:
 --------
-	*- input string : "salut"  
-	*-> reverse : "tulas"  
-	*-> caesar : "fgxme"  
-	*-> base64 : "Zmd4bWU="  
+     - input string : "salut"  
+     -> reverse : "tulas"  
+     -> caesar : "fgxme"  
+     -> base64 : "Zmd4bWU="  
