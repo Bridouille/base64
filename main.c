@@ -2,11 +2,11 @@
 #include <stdlib.h>
 #include <string.h>
 
-void		func_3(char *orig, char *dest, int nbcar)
+static void		func_3(char *orig, char *dest, int nbcar)
 {
-  static char   valcar[65] = {0};
-  unsigned char	octet1, octet2, octet3;
-  int		i;
+  static char		valcar[65] = {0};
+  unsigned char		octet1, octet2, octet3;
+  int			i;
 
   if (!valcar[0])
     {
@@ -55,10 +55,10 @@ void		func_3(char *orig, char *dest, int nbcar)
   *dest = '\0';
 }
 
-void	func_1(char *str, int len)
+static void	func_1(char *str, int len)
 {
-  int	i;
-  char	tmp;
+  int		i;
+  char		tmp;
 
   i = -1;
   while (++i < len / 2)
@@ -69,7 +69,7 @@ void	func_1(char *str, int len)
     }
 }
 
-void	func_2(char *str, int key)
+static void	func_2(char *str, int key)
 {
   while (*str)
     {
@@ -81,7 +81,7 @@ void	func_2(char *str, int key)
     }
 }
 
-void	unxor(char *str, int key)
+static void	unxor(char *str, int key)
 {
   while (*str)
     *str++ ^= key;
@@ -95,7 +95,6 @@ int	func_0(char *str)
   char	_titi[] = {0x6f, 0x72, 0x6f, 0x72, 0x00};
   char	_bengui[] = {0x79, 0x7e, 0x75, 0x7c, 0x6e, 0x72, 0x3b, 0x68, 0x74, 0x69, 0x68, 0x3b, 0x7f, 0x7e, 0x3b, 0x78, 0x7e, 0x3b, 0x78, 0x74, 0x69, 0x6b, 0x68, 0x3b, 0x3a, 0x00};
   char	_noob[] = {0x75, 0x74, 0x74, 0x79, 0x35, 0x00};
-
 
   unxor(_42, 27);
   unxor(_toto, 27);
@@ -125,7 +124,7 @@ int	main(int ac, char *av[])
   func_1(av[1], strlen(av[1]));
   func_2(av[1], 12);
   func_3(av[1], out, strlen(av[1]));
-  printf("salut: %s\n", out);
+  printf("result: %s\n", out);
   free(out);
   return (0);
 }
