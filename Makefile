@@ -1,7 +1,7 @@
 
 SRCS	=	main.c			\
 
-NAME	= 	coucou
+NAME	= 	encrypt
 
 OBJS	=	$(SRCS:.c=.o)
 
