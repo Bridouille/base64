@@ -11,4 +11,4 @@ example:
      -> caesar : "fgxme"  
      -> base64 : "Zmd4bWU="  
 
-![base64](https://raw.githubusercontent.com/Bridouille/base64/master/img/encrypt.png "base64")
+![base64](http://image.noelshack.com/fichiers/2014/51/1418917582-encrypt.png "base64")
